@@ -1,0 +1,22 @@
+{
+  "name": "clinical-test-prediction-backend",
+  "version": "1.0.0",
+  "description": "Backend for Clinical Test Prediction System",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "mongoose": "^6.0.12",
+    "axios": "^0.24.0",
+    "body-parser": "^1.19.0",
+    "dialogflow": "^1.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+} 
